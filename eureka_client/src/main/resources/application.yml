@@ -5,7 +5,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:9000/eureka/ #eurekaServer注册地址
   instance:
-    instanceId: ${spring.cloud.client.ip-address}:${server.port} #使用ip 地址:端口号进行注册
+    instanceId: ${spring.cloud.client.ip-address}:${server.port} #使用ip地址:端口号进行注册
 spring:
   application:
     name: client #注册的实例名
